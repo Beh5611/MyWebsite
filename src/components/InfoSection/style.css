@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  .item {
+    display: inline-block;
+  }
+  /* on PC */
+  @media screen and (min-width: 550px) {
+    .featured-image {
+      float: left;
+      width: 40%;
+      padding-right: 15px;
+    }
+    .featured-image img {
+      width: 100%;
+    }
+    .description {
+      float: left;
+      width: 60%;
+    }
+  }
+  /* on Mobile */
+  @media screen and (max-width: 550px) {
+    .featured-image {
+      width: 100%;
+    }
+    .featured-image img {
+      width: 100%;
+    }
+    .description {
+      width: 100%;
+    }
+  }
