@@ -34,12 +34,7 @@ const Navbar = ({ toggle }) => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
-  // const saveFile = () => {
-  //   FileSaver.saveAs(
-  //     process.env.PUBLIC_URL + "/ps2.pdf",
-  //     "MyCV.pdf"
-  //   ); 
-  // }
+
   const saveFile = () => {
     saveAs(
       "/Resume.pdf",
@@ -52,9 +47,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
         
           <NavbarContainer>
-            {/* <NavLogo onClick={toggleHome} to='/'>
-              dolla
-            </NavLogo> */}
+
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
@@ -96,16 +89,7 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                {/* <NavLinks
-                  to=''
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  resume
-                </NavLinks> */}
+
               </NavItem>
             </NavMenu>
             <NavBtn>

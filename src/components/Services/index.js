@@ -21,10 +21,6 @@ function arraysEqual(a, b) {
   if (a == null || b == null) return false;
   if (a.length !== b.length) return false;
 
-  // If you don't care about the order of the elements inside
-  // the array, you should sort both arrays here.
-  // Please note that calling sort on an array will modify that array.
-  // you might want to clone your array first.
 
   for (var i = 0; i < a.length; ++i) {
     if (a[i] !== b[i]) return false;
@@ -41,33 +37,9 @@ const Services = (props) => {
   }
   
   return (
-    // <ServicesContainer id='services'>
-    //   <ServicesH1>Our Services</ServicesH1>
-    //   <ServicesWrapper>
-    //       <SkillList entry = {L}/>
-    //   </ServicesWrapper>
-    // </ServicesContainer>
-
-
-    //-------------------
-    // <div className='zone wrapper'>
-    //   <SkillList className='zone' entry = {L}/>
-    // </div>
-    
-    //-------------------
-    // <div>
-    //   <ServicesContainer id='services'>
-    //     <ServicesH1>Programming languages</ServicesH1>
-    //     <Container>
-    //       <Row xs={2} sm={3} md={4} lg = {6} xl = {7}>
-    //         <SkillList className='item' entry = {L}/>
-    //       </Row>
-    //     </Container>
-    //   </ServicesContainer>
-    // </div>
+ 
     
     <div>
-      {/* <ServicesContainer id='services'> */}
       <ServicesContainer id='skills'>
         {header}
         <Container>
@@ -81,30 +53,3 @@ const Services = (props) => {
 };
 
 export default Services;
-
-    // <ServicesContainer id='services'>
-    //   <ServicesH1>Our Services</ServicesH1>
-    //   <ServicesWrapper>
-    //     <ServicesCard>
-    //       <ServicesIcon src={Icon1} />
-    //       <ServicesH2>Reduce Expenses</ServicesH2>
-    //       <ServicesP>
-    //         We help reduce your fees and increase your overall revenue.
-    //       </ServicesP>
-    //     </ServicesCard>
-    //     <ServicesCard>
-    //       <ServicesIcon src={Icon2} />
-    //       <ServicesH2>Virtual Offices</ServicesH2>
-    //       <ServicesP>
-    //         You can access our platform online anywhere in the world.
-    //       </ServicesP>
-    //     </ServicesCard>
-    //     <ServicesCard>
-    //       <ServicesIcon src={Icon3} />
-    //       <ServicesH2>Premium Benefits</ServicesH2>
-    //       <ServicesP>
-    //         Unlock our special membership card that returns 5% cash back.
-    //       </ServicesP>
-    //     </ServicesCard>
-    //   </ServicesWrapper>
-    // </ServicesContainer>

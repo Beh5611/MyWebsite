@@ -16,7 +16,8 @@ export const portfolio = {
   dark: true,
   primary: true,
   darkText: false,
-  github: true
+  github: true,
+  githublink: "https://github.com/Beh5611/MyWebsite"
 };
 
 export const myshell = {
@@ -37,7 +38,8 @@ export const myshell = {
   dark: false,
   primary: false,
   darkText: true,
-  github: false
+  github: false,
+  githublink: ""
 };
 export const threemusk = {
   id: 'projects',
@@ -58,7 +60,8 @@ export const threemusk = {
   dark: true,
   primary: true,
   darkText: false,
-  github: false
+  github: false,
+  githublink: ""
 };
 export const trietree = {
   id: 'projects',
@@ -78,5 +81,6 @@ export const trietree = {
   dark: false,
   primary: false,
   darkText: true,
-  github: false
+  github: false,
+  githublink: ""
 };
