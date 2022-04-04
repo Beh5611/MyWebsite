@@ -50,7 +50,7 @@ const InfoSection = ({
                 
                 <ButtonGroup>
                     <IconButton edge='fales'  href='https://www.github.com/Beh5611' color='primary' disableRipple='true' ><GitHubIcon/></IconButton>
-                    <IconButton  edge='false' href='https://https://www.linkedin.com/in/behrouz-akhbari-9b8731183/' color='primary' disableRipple='true' ><LinkedInIcon/></IconButton>
+                    <IconButton  edge='false' href='https://www.linkedin.com/in/behrouz-akhbari-9b8731183/' color='primary' disableRipple='true' ><LinkedInIcon/></IconButton>
                   </ButtonGroup>
               </TextWrapper>
             </Column1>
