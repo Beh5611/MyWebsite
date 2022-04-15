@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.529e62a6.chunk.css",
-    "main.js": "/static/js/main.daeb4dee.chunk.js",
-    "main.js.map": "/static/js/main.daeb4dee.chunk.js.map",
+    "main.js": "/static/js/main.b1fbf8a2.chunk.js",
+    "main.js.map": "/static/js/main.b1fbf8a2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4c381e45.js",
     "runtime-main.js.map": "/static/js/runtime-main.4c381e45.js.map",
     "static/css/2.4253ffa8.chunk.css": "/static/css/2.4253ffa8.chunk.css",
-    "static/js/2.d72a35b2.chunk.js": "/static/js/2.d72a35b2.chunk.js",
-    "static/js/2.d72a35b2.chunk.js.map": "/static/js/2.d72a35b2.chunk.js.map",
+    "static/js/2.9a6006f6.chunk.js": "/static/js/2.9a6006f6.chunk.js",
+    "static/js/2.9a6006f6.chunk.js.map": "/static/js/2.9a6006f6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6673c68dbbefab3a410410fdb7b8fe41.js": "/precache-manifest.6673c68dbbefab3a410410fdb7b8fe41.js",
+    "precache-manifest.29a2b7e077c63e1a1599b609c6b0d2a5.js": "/precache-manifest.29a2b7e077c63e1a1599b609c6b0d2a5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4253ffa8.chunk.css.map": "/static/css/2.4253ffa8.chunk.css.map",
     "static/css/main.529e62a6.chunk.css.map": "/static/css/main.529e62a6.chunk.css.map",
-    "static/js/2.d72a35b2.chunk.js.LICENSE.txt": "/static/js/2.d72a35b2.chunk.js.LICENSE.txt",
+    "static/js/2.9a6006f6.chunk.js.LICENSE.txt": "/static/js/2.9a6006f6.chunk.js.LICENSE.txt",
     "static/media/bootstrap.png": "/static/media/bootstrap.73844123.png",
     "static/media/c.png": "/static/media/c.b4dd4c5e.png",
     "static/media/css.png": "/static/media/css.bf2ebe6a.png",
@@ -24,6 +24,7 @@
     "static/media/mysh.PNG": "/static/media/mysh.a124d8c4.PNG",
     "static/media/myweb.PNG": "/static/media/myweb.48c9f091.PNG",
     "static/media/nodejs.png": "/static/media/nodejs.4c6c0929.png",
+    "static/media/pic.jpg": "/static/media/pic.fc384c2d.jpg",
     "static/media/python.png": "/static/media/python.22eeecf9.png",
     "static/media/react.png": "/static/media/react.cf9d26c3.png",
     "static/media/svg-1.svg": "/static/media/svg-1.715313cd.svg",
@@ -35,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.4c381e45.js",
     "static/css/2.4253ffa8.chunk.css",
-    "static/js/2.d72a35b2.chunk.js",
+    "static/js/2.9a6006f6.chunk.js",
     "static/css/main.529e62a6.chunk.css",
-    "static/js/main.daeb4dee.chunk.js"
+    "static/js/main.b1fbf8a2.chunk.js"
   ]
 }

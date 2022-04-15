@@ -22,8 +22,8 @@ function Skill(props) {
     
     return (
       <Col>
-        <Card key= {props.id} style={{ width: '10rem', height: '16rem' }}>
-            <Card.Img variant="top" src={props.img} style={{ width: '9rem', height: '14rem' , padding: '20px' , 
+        <Card key= {props.id} style={{ width: '10rem', height: 'auto' }}>
+            <Card.Img variant="top" src={props.img} style={{ width: '9rem', height: '11rem' , padding: '20px' , 
                       flexDirection: 'column', justifyContent: 'flex-start', alignItems:'center'}}/>
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
