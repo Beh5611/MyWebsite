@@ -1,5 +1,4 @@
 import React from 'react';
-// import "./style.css";
 import { Button } from '../ButtonElements';
 import Carousel from 'react-bootstrap/Carousel';
 import { IconButton, ButtonGroup} from '@mui/material';

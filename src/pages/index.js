@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
-import Footer from '../components/Footer';
+
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import Project from '../components/Project';
 import {Card, Button, ListGroup, ListGroupItem} from 'react-bootstrap';
 import {
-  homeObjOne,
-  homeObjTwo,
-  homeObjThree
+  homeObjOne
 } from '../components/InfoSection/Data';
 import {
   portfolio,

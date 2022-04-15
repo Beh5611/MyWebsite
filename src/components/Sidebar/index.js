@@ -58,17 +58,6 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Projects
           </SidebarLink>
-          {/* <SidebarLink
-            to='signup'
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}
-          >
-            Sign Up
-          </SidebarLink> */}
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to='' onClick={saveFile}>resume</SidebarRoute>

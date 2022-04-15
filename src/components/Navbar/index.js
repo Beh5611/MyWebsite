@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { animateScroll as scroll } from 'react-scroll';
-import ps2 from './';
+
 import {FileSaver, saveAs} from 'file-saver';
 import {
   MobileIcon,
@@ -10,7 +9,6 @@ import {
   NavbarContainer,
   NavItem,
   NavLinks,
-  NavLogo,
   NavMenu,
   NavBtn,
   NavBtnLink
@@ -31,9 +29,6 @@ const Navbar = ({ toggle }) => {
     window.addEventListener('scroll', changeNav);
   }, []);
 
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
 
   const saveFile = () => {
     saveAs(

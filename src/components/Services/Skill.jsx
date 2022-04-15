@@ -2,20 +2,7 @@ import React, { useEffect, useState } from "react";
 import './skill-style.css';
 import {Card, Button, ListGroup, ListGroupItem} from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
-import Icon1 from '../../images/svg-1.svg';
-import {
-    ServicesContainer,
-    ServicesH1,
-    ServicesWrapper,
-    ServicesCard,
-    ServicesIcon,
-    ServicesH2,
-    ServicesP
-  } from './ServicesElements';
-  import {
-    ImageWrapper,
-    Image
-  } from './ServicesElements';
+
 
 
 function Skill(props) {

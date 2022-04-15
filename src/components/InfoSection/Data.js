@@ -16,38 +16,4 @@ export const homeObjOne = {
   darkText: false
 };
 
-export const homeObjTwo = {
-  id: '',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: '',
-  headline: '',
-  description:
-    '',
-  buttonLabel: '',
-  imgStart: true,
-  img: require('../../images/ph.png'),
-  alt: '',
-  dark: false,
-  primary: false,
-  darkText: true
-};
 
-export const homeObjThree = {
-  id: '',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: '',
-  headline: '',
-  description:
-    "",
-  buttonLabel: 'Start Now',
-  imgStart: false,
-  img: require('../../images/ph.png'),
-  alt: '',
-  dark: false,
-  primary: false,
-  darkText: true
-};
